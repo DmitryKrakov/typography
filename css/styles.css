@@ -10,12 +10,15 @@ body {
 }
 .logo {
 font-size: 3.5rem;
+letter-spacing: 0.1rem;
 font-family: 'Courier New', Courier, monospace;
 
 }
 .text {
-    width: 30rem;
+    width: 50ch; /* width of 0 symbol ~ 60-70 symbols (best practice) */
+    line-height: 1.5;
     height: 30rem;
+
     font-size: 2rem;
     border: 1px solid lightgray;
     font-family: Roboto;
